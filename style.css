@@ -35,7 +35,6 @@
     .marque{
     font-size: 2rem;
     font-weight: bold;
-    margin-top: 1rem;
     border-bottom: 2px solid rgba(0, 0,0, 0.3);
     background:linear-gradient(200deg, rgba(22,125,55)0%, rgba(12,125,155)30%, rgba(42,15,95)80%) ;
     padding: 0.5rem;
@@ -98,6 +97,7 @@ footer{
 .footer-cool {
    display: flex;
    justify-content: space-around;
+   flex-direction: column;
 }
 .footer-link span{
     font-weight: bold;
@@ -134,7 +134,7 @@ footer{
     font-weight: bold;
     background-color: rgb(212, 27, 42);
     display: inline-block;
-    padding: 1.5rem 1.4rem;
+    padding: 2rem 1.5rem;
     border-radius: 8px;
     border: none;
     outline: none;
@@ -158,7 +158,7 @@ footer{
     text-decoration: none;
     color: white;
     padding: 0 0.5rem;
-    font-size: 2rem;
+    font-size: 35px;
 }
 @media(max-width: 480px){
     .imm{
